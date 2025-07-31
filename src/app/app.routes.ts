@@ -1,7 +1,9 @@
 import { Routes } from '@angular/router';
 import { HomePages } from './pages/home-pages/home-pages';
 import { UsersPages } from './pages/users-pages/users-pages';
+import { PostPages } from './pages/post-pages/post-pages';
 import { SettingsPages } from './pages/settings-pages/settings-pages';
+
 
 export const routes: Routes = [
   {
@@ -15,5 +17,9 @@ export const routes: Routes = [
   {
     path: 'settings',
     component: SettingsPages,
+  },
+  {
+    path: 'post',
+    component: PostPages,
   },
 ];
